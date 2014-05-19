@@ -145,3 +145,11 @@ body {
     margin-top: 120px;
   }
 }
+
+
+/* Some Custom CSS
+-------------------------------------------------- */
+/* remove text decoration from contact links */
+#contact a {
+  text-decoration: none;
+}
