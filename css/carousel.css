@@ -157,3 +157,7 @@ body {
 #top-row {
   margin-top: 80px;
 }
+
+body {
+  width: 900px;
+}
