@@ -150,6 +150,6 @@ body {
 /* Some Custom CSS
 -------------------------------------------------- */
 /* remove bullets from contact links */
-li {
+#contact ul li {
   list-style-type: none;
 }
