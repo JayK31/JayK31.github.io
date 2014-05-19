@@ -153,3 +153,7 @@ body {
 #contact ul li {
   list-style-type: none;
 }
+
+#top-row {
+  margin-top: 80px;
+}
