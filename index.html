@@ -1,85 +1,207 @@
+
 <!DOCTYPE html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>JayKaye</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
-  <!-- adding jQuery to use BS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    padding-top: 50px;
-    }
-  </style>
-</head>
-<body>
+    <title>Carousel Template for Bootstrap</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
       <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Project name</a>
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#funfact">Fun Facts</a></li>
-            <li><a href="JasonKaye.pdf">Resume</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
+
       </div>
     </div>
 
-    <div class="container">
 
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" data-src="holder.js/140x140" alt="Generic placeholder image">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
       </div>
 
-      <div>
-        <article>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie neque vitae urna rhoncus, at convallis odio porttitor. Maecenas eget felis ullamcorper, porttitor urna et, tristique diam. Maecenas sit amet magna id arcu tempus auctor mollis non diam. Nulla volutpat consectetur mi, eu ornare mauris dapibus sit amet. Vestibulum commodo odio at orci sagittis lobortis. Praesent pulvinar euismod malesuada. Phasellus mattis in justo ac tincidunt. Suspendisse diam lectus, adipiscing eget facilisis quis, euismod rutrum augue. Nunc commodo odio vehicula erat fermentum, in venenatis odio commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dignissim dui eget enim lobortis lobortis.
+      <hr class="featurette-divider">
 
-          Pellentesque ac nulla eget tortor iaculis tempus. Donec in diam sollicitudin, molestie dolor nec, vehicula odio. Pellentesque sed nulla facilisis, viverra urna eu, iaculis diam. Duis aliquet facilisis commodo. Etiam semper venenatis sem non luctus. Cras porttitor elit ut velit suscipit commodo. Quisque magna dolor, vestibulum non urna eget, gravida aliquam tellus. Sed ut semper metus, ac faucibus dui. Phasellus tincidunt lacus vitae ante elementum vestibulum at sodales velit. Donec sodales vitae sem sed porta.
-
-          Curabitur rhoncus consectetur eros at fermentum. Quisque turpis orci, vehicula vel commodo id, mollis eget quam. Proin ac consectetur ligula, id ultricies est. Sed sed euismod dolor. Nunc vitae nisl eu leo ultrices dignissim. Ut feugiat massa in risus sollicitudin, in bibendum odio aliquet. Integer volutpat enim sit amet justo varius adipiscing.
-
-          Vestibulum massa nulla, faucibus ut mollis a, dictum sit amet tellus. Mauris luctus, sapien et imperdiet lobortis, arcu enim bibendum erat, eget commodo lorem turpis nec elit. Proin imperdiet quam sed erat pellentesque, ac dapibus purus blandit. Fusce laoreet malesuada elit et malesuada. Nullam eget purus quis erat ultricies commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur tortor enim, congue ut dolor eu, porttitor dignissim erat. Etiam feugiat et urna non placerat. Quisque lobortis velit eu felis adipiscing porttitor. Quisque id condimentum tellus. Aliquam a mi mi. Cras ut lectus eu magna ultrices sagittis a sed ante. Nunc cursus auctor tortor, at cursus libero condimentum sed. Suspendisse eget libero id magna pharetra tempus. Donec vehicula arcu ullamcorper ante molestie commodo. Proin eu auctor elit.
-
-          Suspendisse congue semper iaculis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas viverra, ligula fermentum convallis elementum, nibh libero suscipit sapien, non dignissim nulla velit et leo. Donec id arcu eget nisl ultrices sagittis. Aliquam auctor rhoncus dolor, id vehicula mi. Quisque feugiat commodo sapien, vitae scelerisque nibh. Proin bibendum convallis leo sed iaculis. Duis porttitor, lacus placerat sollicitudin egestas, urna mi volutpat nunc, et iaculis ante risus eget arcu. Sed sollicitudin nisi vitae arcu faucibus convallis. Pellentesque eu commodo urna. Donec imperdiet neque facilisis odio porttitor facilisis. Nulla iaculis nulla quis eros volutpat, a laoreet urna aliquam.  
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque molestie neque vitae urna rhoncus, at convallis odio porttitor. Maecenas eget felis ullamcorper, porttitor urna et, tristique diam. Maecenas sit amet magna id arcu tempus auctor mollis non diam. Nulla volutpat consectetur mi, eu ornare mauris dapibus sit amet. Vestibulum commodo odio at orci sagittis lobortis. Praesent pulvinar euismod malesuada. Phasellus mattis in justo ac tincidunt. Suspendisse diam lectus, adipiscing eget facilisis quis, euismod rutrum augue. Nunc commodo odio vehicula erat fermentum, in venenatis odio commodo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque dignissim dui eget enim lobortis lobortis.
-        </article>
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
       </div>
 
-      <div id="about">
-        <p>Testing out about</p>
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+        </div>
       </div>
 
-      <div id="contact">
-        <a href="https://www.github.com/jayk31">Github</a>
-        <a href="https://linkedin.com/in/eljayk">LinkedIn</a>
-        <a href="https://twitter.com/jkaye31">Twitter</a>
-        <a href="mailto:jay.kaye31@gmail.com">Email Me!</a>
+      <hr class="featurette-divider">
 
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
 
     </div><!-- /.container -->
-</body>
-</html>
 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
