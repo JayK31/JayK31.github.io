@@ -151,5 +151,5 @@ body {
 -------------------------------------------------- */
 /* remove text decoration from contact links */
 #contact ul {
-  text-decoration: none;
+  list-style-type: none;
 }
