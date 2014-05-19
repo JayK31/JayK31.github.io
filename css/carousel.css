@@ -150,6 +150,6 @@ body {
 /* Some Custom CSS
 -------------------------------------------------- */
 /* remove text decoration from contact links */
-#contact a {
+#contact ul {
   text-decoration: none;
 }
