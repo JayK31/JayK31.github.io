@@ -1,6 +1,9 @@
 $(document).ready(function() {
-  $("#header-image").on("click", function() {
-    alert("Hi, I'm Jay")
+  $('.img-circle').hover(function() {
+    $("#me").attr("src", "img/meimage2.jpeg")
+  },
+  function() {
+    $("#me").attr("src", "img/header_image.jpg")
   })
 })
 
