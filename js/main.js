@@ -4,23 +4,10 @@ $(document).ready(function() {
   },
   function() {
     $("#me").attr("src", "img/header_image.jpg")
-  }),
-  function() {
-    $("#dialog").dialog({
-      autoOpen : false, 
-      modal : true, 
-      show : "blind", 
-      hide : "blind"
-    });
-  };
+  });
   
-  // $("#tripcollab").click(function() {
-  //   alert("TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec.")
-  // });
-
   $("#tripcollab").click(function() {
-    $("#dialog").dialog("open");
-    return false;
+    alert("TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec.")
   });
    
   $("#cyclesmart").click(function() {
