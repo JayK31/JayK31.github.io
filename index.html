@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Optional styles for this template -->
   <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
 
 
   </head>
@@ -94,7 +95,11 @@
           <img src="img/tripcollaborator.png" alt="Trip Collaborator" />
           <div class="container">
             <div class="carousel-caption">
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">About TripCollaborator</a></p>
+              <p><a id="tripcollab" class="btn btn-lg btn-primary" role="button">About TripCollaborator</a>
+              </p>
+                <div id="dialog" title="TripCollab">
+                  "TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec.
+                </div>
             </div>
           </div>
         </div>
@@ -102,7 +107,7 @@
           <img src="img/cyclesmart.png" alt="Cyclesmart">
           <div class="container">
             <div class="carousel-caption">
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">About CycleSmart</a></p>
+              <p><a id="cyclesmart" class="btn btn-lg btn-primary" href="#" role="button">About CycleSmart</a></p>
             </div>
           </div>
         </div>
@@ -110,7 +115,7 @@
           <img src="img/twitterconvoviewer.png" alt="Twitter Conversation Viewers">
           <div class="container">
             <div class="carousel-caption">
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">About TwttrFrgmnts</a></p>
+              <p><a id="twitterfrags" class="btn btn-lg btn-primary" href="#" role="button">About TwttrFrgmnts</a></p>
             </div>
           </div>
         </div>
@@ -190,5 +195,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/main.js"></script>
+   
+  
   </body>
 </html>
