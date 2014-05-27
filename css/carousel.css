@@ -197,9 +197,22 @@ body {
   list-style-type: none;
   display: inline;
   margin: 10px;
+  width: 20px;
 }
 
 .contact-me img {
   width: 100px;
   height: 100px;
 }
+
+#skills {
+  margin-top: -90px;
+  /*width: 10px;*/
+}
+
+#skills h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
