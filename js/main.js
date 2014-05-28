@@ -9,7 +9,7 @@ $(document).ready(function() {
   $("#tripcollab").click(function() {
     bootbox.dialog({
       title: "TripCollaborator",
-      message: "TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec."
+      message: "TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec." 
     })
   });
   $("#cyclesmart").click(function() {

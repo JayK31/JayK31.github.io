@@ -216,3 +216,7 @@ body {
   padding: 0;
 }
 
+#skills li {
+  list-style-type: none;
+}
+
