@@ -22,7 +22,7 @@ $(document).ready(function() {
     bootbox.dialog({
       title: "TwttrFrgmnts",
       message: "TwttrFrgmnts is an app that helps track Twitter conversation threads. Twitter's normal conversation threads are often a maze of replies that are hard to follow. TwttrFrgmnts makes it easy to follow a Twitter conversation from the original Tweet down to the latest reply. Built using Ruby on Rails, Javascript, jQuery, and D3."
-      });
+      })
     });
   $("#smoothstreets").click(function() {
     bootbox.dialog({
@@ -31,8 +31,9 @@ $(document).ready(function() {
             You cursed. You got angry. You might have even gotten seriously hurt.
             But what did you do about it??? Probably nothing!
             What if there was an easy, seamless way to seriously, seriously bug your elected officials about bad road conditions AND determine which streets you should avoid?"
+    
     })
-  })
+  });
 })
 
 
