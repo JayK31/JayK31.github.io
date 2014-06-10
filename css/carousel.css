@@ -323,8 +323,7 @@ body {
   background: rgba(0, 255, 255, 1)
 }
 
-div.carousel-caption {
-  margin: 0;
-  padding: 0;
-  width: 0;
-}
+/*#myCarousel {
+  height: 300px;
+  width: 500px;
+}*/
