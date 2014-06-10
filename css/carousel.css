@@ -276,6 +276,7 @@ body {
 
 #tripcollab-trigger {
   padding: 0;
+  padding-top: 30px;
   margin: 0 auto;
   text-align: center;
   display: inline;
@@ -320,4 +321,10 @@ body {
 .smoothstreets {
   border: 10px solid red;
   background: rgba(0, 255, 255, 1)
+}
+
+div.carousel-caption {
+  margin: 0;
+  padding: 0;
+  width: 0;
 }
