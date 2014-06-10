@@ -278,12 +278,17 @@ body {
 
 #tripcollab-trigger {
   padding: 0;
-  padding-top: 30px;
   margin: 0 auto;
   text-align: center;
   display: inline;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
+  position: relative;
+  right: 230px;
+  top: 3px;
+  border: 2px solid black;
+  border-bottom: none;
+  background: white;
 }
 
 .tripcollaborator {
@@ -298,7 +303,13 @@ body {
   text-align: center;
   display: inline;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
+  position: relative;
+  right: 230px;
+  top: 3px;
+  border: 2px solid black;
+  border-bottom: none;
+  background: white;
 }
 
 .cyclesmart {
@@ -309,11 +320,17 @@ body {
 
 #twitterfrags-trigger {
   padding: 0;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 0 auto;
   text-align: center;
   display: inline;
   color: black;
+  position: relative;
+  right: 230px;
+  top: 2px;
+  border: 2px solid black;
+  border-bottom: none;
+  background: white;
 }
 
 .twitterfrags {
@@ -328,7 +345,13 @@ body {
   text-align: center;
   display: inline;
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
+  position: relative;
+  right: 230px;
+  top: 3px;
+  border: 2px solid black;
+  border-bottom: none;
+  background: white;
 }
 
 .smoothstreets {
@@ -337,23 +360,14 @@ body {
   background: rgba(155, 155, 155, 1)
 }
 
-/*#myCarousel {
-  height: 400px;
-  width: 600px;
+#myCarousel {
+  height: 450px;
+  width: 700px;
   margin: 0 auto;
 }
 
-.item.active {
-  height: 400px;
-  width: 600px;
-}*/
-/*
-img {
-  height: 400px;
+div.carousel-inner {
+  height: 450px;
+  width: 700px;
+  margin: 0 auto;
 }
-
-.item {
-  height: 400px;
-  width: 600px;
-}
-*/
