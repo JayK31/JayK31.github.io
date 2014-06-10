@@ -90,38 +90,61 @@
     <h1 id="projects">Projects</h1>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
+   <!--    <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol>
+      </ol> -->
       <div class="carousel-inner">
         <div class="item active">
-          <a href="https://tripcollaborator.herokuapp.com" target="_blank"><img src="img/tripcollaborator.png" alt="Trip Collaborator" style="height:500px"/></a>
+          <a href="http://tripcollaborator.herokuapp.com" target="_blank"><img src="img/tripcollaborator.png" alt="Trip Collaborator" style="height:500px"/></a>
           <div class="container">
             <div class="carousel-caption">
-              <p><a id="tripcollab" class="btn btn-lg btn-primary" role="button">About TripCollaborator</a>
-              <p><a id="github-tripcollab" class="btn btn-lg btn-primary" href="https://www.github.com/jayk31/flaming-octo-wookie" target="_blank">Github/TripCollaborator</a>
-              </p>
-            </div>
+              <div class="tripcollaborator">
+                <p>TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec.
+                  </br>
+                  Source: <a href="https://www.github.com/jayk31/flaming-octo-wookie" target="_blank">TripCollaborator on Github</a>
+                  </br>
+                  Link: <a href="http://tripcollaborator.herokuapp.com" target="_blank">TripCollaborator.com</a></p>
+              </div> <!-- end .tripcollaborator -->
+
+              <div id="tripcollab-trigger">About TripCollaborator</div>
+          
+            </div> <!-- end .carousel-caption-->
           </div>
         </div>
         <div class="item">
           <a href="https://cyclesmart.herokuapp.com" target="_blank"><img src="img/cyclesmart.png" alt="Cyclesmart" style="height:500px"/></a>
           <div class="container">
             <div class="carousel-caption">
-              <p><a id="cyclesmart" class="btn btn-lg btn-primary" role="button">About CycleSmart</a></p>
-              <p><a id="github-cs" class="btn btn-lg btn-primary" href="https://www.github.com/jayk31/cycle-smart" target="_blank">Github/CycleSmart</a>
+              <div class="cyclesmart">
+                <p>"CycleSmart is a cycling-centric app that displays various cycling-related events nearby. It renders accidents involving bicycles, bicycle shops, Citibike stations, and Groupon cycling deals onto a Google map. With CycleSmart, you can also look up cycling directions and save your favorite routes. Built using Ruby on Rails, Javascript, jQuery, Google Maps API, Citibike API, and the Groupon API."
+                  </br>
+                  Source: <a href="https://www.github.com/jayk31/cycle-smart" target="_blank">CycleSmart on Github</a>
+                  </br>
+                  Link: <a href="https://cyclesmart.herokuapp.com" target="_blank">CycleSmart.com</a></p>
+              </div> <!-- end .cyclesmart -->
+
+              <div id="cyclesmart-trigger">About CycleSmart</div>
+
             </div>
           </div>
         </div>
         <div class="item">
-          <a href="https://twttrfrgmnts.herokuapp.com"><img src="img/twitterconvoviewer.png" alt="Twitter Conversation Viewer" style="height:500px"></a>
+          <a href="https://twttrfrgmnts.herokuapp.com" target="_blank"><img src="img/twitterconvoviewer.png" alt="Twitter Conversation Viewer" style="height:500px"></a>
           <div class="container">
             <div class="carousel-caption">
-              <p><a id="twitterfrags" class="btn btn-lg btn-primary" role="button">About TwttrFrgmnts</a></p>
-              <p><a id="github-tf" class="btn btn-lg btn-primary" href="https://www.github.com/jayk31/tweet-conversation-viewer" target="_blank">Github/TwttrFrgmnts</a>
+              <div class="twitterfrags">
+                <p>TwttrFrgmnts is an app that helps track Twitter conversation threads. Twitter's normal conversation threads are often a maze of replies that are hard to follow. TwttrFrgmnts makes it easy to follow a Twitter conversation from the original Tweet down to the latest reply. Built using Ruby on Rails, Javascript, jQuery, and D3.
+                </br>
+                Source: <a href="https://www.github.com/jayk31/tweet-conversation-viewer" target="_blank">TwttrFrgmts on Github</a>
+                </br>
+                Link: <a href="https://twttrfrgmnts.herokuapp.com" target="_blank">TwttrFrgmnts.com</a></p>
+              </div> <!-- end .twttrfrgs -->
+
+              <div id="twitterfrags-trigger">About TwttrFrgmnts</div>
+
             </div>
           </div>
         </div>
@@ -129,8 +152,17 @@
           <a href="https://smoothstreets.herokuapp.com"><img src="img/smoothstreets.png" alt="Smooth Streets" style="height:500px"></a>
           <div class="container">
             <div class="carousel-caption">
-              <p><a id="smoothstreets" class="btn btn-lg btn-primary" role="button">About SmoothStreets</a></p>
-              <p><a id="github-ss" class="btn btn-lg btn-primary" href="https://github.com/trivett/smooth_streets" target="_blank">Github/SmoothStreets</a>
+              <div class="smoothstreets">
+                <p>I bet you've had some awful experiences with poor road quality in the city. What happened? You were in the bike lane. Right were you are supposed to be. Keeping your eyes on the road. And the road came up and wrecked your bike. Or worse. You cursed. You got angry. You might have even gotten seriously hurt.
+                But what did you do about it??? Probably nothing! What if there was an easy, seamless way to seriously, seriously bug your elected officials about bad road conditions AND determine which streets you should avoid?
+                </br>
+                Source: <a href="https://github.com/trivett/smooth_streets" target="_blank">SmoothStreets on Github</a>
+                </br>
+                Link: <a href="https://smoothstreets.herokuapp.com" target="_blank">SmoothStreets.com</a></p>
+              </div> <!-- end .smoothstreets -->
+
+              <div id="smoothstreets-trigger">About SmoothStreets</div>
+              
             </div>
           </div>
         </div>
@@ -202,8 +234,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/main.js"></script>
     <script src="js/bootbox.js"></script>
+    <script src="js/main.js"></script>
    
   
   </body>

@@ -274,3 +274,50 @@ body {
   width: 50%;
 }
 
+#tripcollab-trigger {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline;
+}
+
+.tripcollaborator {
+  border: 10px solid red;
+  background: rgba(0, 255, 255, 1)
+}
+
+#cyclesmart-trigger {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline;
+}
+
+.cyclesmart {
+  border: 10px solid red;
+  background: rgba(0, 255, 255, 1)
+}
+
+#twitterfrags-trigger {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline;
+}
+
+.twitterfrags {
+  border: 10px solid red;
+  background: rgba(0, 255, 255, 1)
+}
+
+#smoothstreets-trigger {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  display: inline;
+}
+
+.smoothstreets {
+  border: 10px solid red;
+  background: rgba(0, 255, 255, 1)
+}
