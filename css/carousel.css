@@ -285,8 +285,9 @@ body {
 }
 
 .tripcollaborator {
-  border: 10px solid red;
-  background: rgba(0, 255, 255, 1)
+  border: 5px solid red;
+  border-radius: 20px;
+  background: rgba(155, 155, 155, 1)
 }
 
 #cyclesmart-trigger {
@@ -297,8 +298,9 @@ body {
 }
 
 .cyclesmart {
-  border: 10px solid red;
-  background: rgba(0, 255, 255, 1)
+  border: 5px solid red;
+  border-radius: 20px;
+  background: rgba(155, 155, 155, 1);
 }
 
 #twitterfrags-trigger {
@@ -309,8 +311,9 @@ body {
 }
 
 .twitterfrags {
-  border: 10px solid red;
-  background: rgba(0, 255, 255, 1)
+  border: 5px solid red;
+  border-radius: 20px;
+  background: rgba(155, 155, 155, 1);
 }
 
 #smoothstreets-trigger {
@@ -321,8 +324,9 @@ body {
 }
 
 .smoothstreets {
-  border: 10px solid red;
-  background: rgba(0, 255, 255, 1)
+  border: 5px solid red;
+  border-radius: 20px;
+  background: rgba(155, 155, 155, 1)
 }
 
 /*#myCarousel {
