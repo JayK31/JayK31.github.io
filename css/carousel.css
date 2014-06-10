@@ -282,6 +282,8 @@ body {
   margin: 0 auto;
   text-align: center;
   display: inline;
+  color: black;
+  font-size: 2em;
 }
 
 .tripcollaborator {
@@ -295,6 +297,8 @@ body {
   margin: 0 auto;
   text-align: center;
   display: inline;
+  color: black;
+  font-size: 2em;
 }
 
 .cyclesmart {
@@ -305,9 +309,11 @@ body {
 
 #twitterfrags-trigger {
   padding: 0;
+  font-size: 2em;
   margin: 0 auto;
   text-align: center;
   display: inline;
+  color: black;
 }
 
 .twitterfrags {
@@ -321,6 +327,8 @@ body {
   margin: 0 auto;
   text-align: center;
   display: inline;
+  color: black;
+  font-size: 2em;
 }
 
 .smoothstreets {
