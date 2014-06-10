@@ -173,6 +173,8 @@ body {
 
 #projects {
   text-align: center;
+  margin-top: -70px;
+  margin-bottom: 25px;
 }
 
 .pull-right {
@@ -323,7 +325,13 @@ body {
   background: rgba(0, 255, 255, 1)
 }
 
-/*#myCarousel {
-  height: 300px;
-  width: 500px;
-}*/
+#myCarousel {
+  height: 400px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.item.active {
+  height: 400px;
+  width: 600px;
+}
