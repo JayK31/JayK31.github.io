@@ -1,245 +1,81 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
 
-    <title>JayKayeIAm</title>
-  <!-- Import style for left, right carousel arrows -->
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <!-- Optional styles for this template -->
-  <link rel="stylesheet" href="css/carousel.css">
-  <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Jason Kaye | Space Cowboy Coder</title>
+	<meta name="description" content="Jason Kaye | Full Stack Web Developer">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" type="text/css" href="stylesheets/base.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/layout.css">
+      <link rel="stylesheet" type="text/css" href="stylesheets/flexslider.css">
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+      <!-- JS Scripts / Files
+  =================================================== -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+      <script src="js/jquery.flexslider.js"></script>
+      <script src="js/main.js"></script>
 
 
-  </head>
-<!-- NAVBAR
+      <!-- GFonts
+  =================================================== -->
+      <link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	<!-- Favicons
+  ================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+</head>
+<body>
+
+
+
+	<!-- Intro Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+      <div class="intro-section">
+
+        <div class="container">
+          <div class="sixteen columns">
+              <div class="name">Jason Kaye.</div>
+              <div class="flexslider">
+                <ul class="slides describe-me">
+                  <li>Full Stack Web Developer</li>
+                  <li>Wanna-be Homebrewer</li>
+                  <li>Avid hiker and photographer</li>
+                </ul>  <!-- slides describe-me -->
+              </div> <!-- flexslider -->
+              <div class="button custom-button"><a href="#">Learn More</a></div>
+          </div> <!-- sixteen columns -->
+        </div><!-- container -->
+
+      </div> <!-- intro-section -->
+
+
+<!-- End Document
 ================================================== -->
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Jason Kaye</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="JasonKaye_v5.pdf">Resume</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-       <div class="row" id="top-row">
-        <!-- deleting this messes up format, figure out why -->
-       
-        <div id="pic" class="col-lg-4">
-          <img id="me" class="img-circle" src="img/header_image.jpg">
-          <h2>I'm Jay</h2>
-          <h3>Web Developer</h3>
-        </div>  <!-- /.col-md-lg-4 pic -->
-        <div id="about" class="col-md-7">
-          <h2>About Me</h2>
-          <p class="lead">Recent Graduate of General Assembly's Web Development Immersive. Junior Web Developer looking for full-time employment and freelance opportunities.</p>
-        </div> <!-- / .col-md-7 #about -->
-     
-
-        </div><!-- /.row #top-row -->
-      
-      </div><!-- /.container marketing -->
-      <p class="pull-right"><a href="#">Back to top</a></p>
-
-
-
-    <!-- Carousel
-    ================================================== -->
-
-    <hr class="featurette-divider">
-
-    <h1 id="projects">Projects</h1>
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-   <!--    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-      </ol> -->
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/tripcollaborator.png" alt="Trip Collaborator" style:"height=400px;"/>
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="tripcollaborator">
-                <p>TripCollaborator is a way to plan trips and create a list of items to bring on your trips. You can invite guests, and they can choose to bring items on the trip. Built using Ruby on Rails, Twitter API, and RSpec.
-                  </br>
-                  Source: <a href="https://www.github.com/jayk31/flaming-octo-wookie" target="_blank">TripCollaborator on Github</a>
-                  </br>
-                  Link: <a href="http://tripcollaborator.herokuapp.com" target="_blank">TripCollaborator.com</a></p>
-              </div> <!-- end .tripcollaborator -->
-
-              <div id="tripcollab-trigger">About TripCollaborator</div>
-          
-            </div> <!-- end .carousel-caption-->
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/cyclesmart.png" alt="Cyclesmart" />
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="cyclesmart">
-                <p>CycleSmart is a cycling-centric app that displays various cycling-related events nearby. It renders accidents involving bicycles, bicycle shops, Citibike stations, and Groupon cycling deals onto a Google map. With CycleSmart, you can also look up cycling directions and save your favorite routes. Built using Ruby on Rails, Javascript, jQuery, Google Maps API, Citibike API, and the Groupon API.
-                  </br>
-                  Source: <a href="https://www.github.com/jayk31/cycle-smart" target="_blank">CycleSmart on Github</a>
-                  </br>
-                  Link: <a href="https://cyclesmart.herokuapp.com" target="_blank">CycleSmart.com</a></p>
-              </div> <!-- end .cyclesmart -->
-
-              <div id="cyclesmart-trigger">About CycleSmart</div>
-
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/twitterconvoviewer.png" alt="Twitter Conversation Viewer" />
-          <div class="container">
-            <div class="carousel-caption">
-              <div class="twitterfrags">
-                <p>TwttrFrgmnts is an app that helps track Twitter conversation threads. Twitter's normal conversation threads are often a maze of replies that are hard to follow. TwttrFrgmnts makes it easy to follow a Twitter conversation from the original Tweet down to the latest reply. Built using Ruby on Rails, Javascript, jQuery, and D3.
-                </br>
-                Source: <a href="https://www.github.com/jayk31/tweet-conversation-viewer" target="_blank">TwttrFrgmts on Github</a>
-                </br>
-                Link: <a href="https://twttrfrgmnts.herokuapp.com" target="_blank">TwttrFrgmnts.com</a></p>
-              </div> <!-- end .twttrfrgs -->
-
-              <div id="twitterfrags-trigger">About TwttrFrgmnts</div>
-
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/smoothstreets.png" alt="Smooth Streets" />
-          <div class="container">
-            <div class="carousel-caption">
-
-              <div class="smoothstreets">
-                <p>SmoothStreets was created at the Red Hook Hackathon as a way to help cyclists in Red Hook report dangerous potholes. Cyclists can click the button to report poor road conditions, which triggers an e-mail and a phone call to the local community board telling them of the location of the pothole. Built with Rails, JavaScript, Google Maps, and the Twilio API, SmoothStreets took home awards for <strong style="color:black;">Best Bike Hack</strong> and <strong style="color:black;"> Best Use of the Twilio API</strong>.
-                </br>
-                Source: <a href="https://github.com/trivett/smooth_streets" target="_blank">SmoothStreets on Github</a>
-                </br>
-                Link: <a href="https://smoothstreets.herokuapp.com" target="_blank">SmoothStreets.com</a>
-              </br>
-                Red Hook Hackathon: <a href="http://challengepost.com/software/smooth-streets" target="_blank">ChallengePost/SmoothStreets</a></p>
-              </div> <!-- end .smoothstreets -->
-
-              <div id="smoothstreets-trigger">About SmoothStreets</div>
-
-            </div>
-          </div>
-        </div>
-
-      </div> <!-- /.carousel inner --> 
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-    <!-- BELOW: hacked the margin, figure out why it was necessary at later point -->
-    <p class="pull-right" style="margin-top: -20px"><a href="#">Back to top</a></p>
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div id="skills" class="col-md-5">
-          <h2>Skills</h2>
-          <article class="lead">Creating and designing web applications using the agile web development methodology along with the best practices of test-driven and behavior-driven development.</article>
-        </div> <!-- end skills id -->
-        <div id="techs" class="col-md-5">
-          <h2>Technologies</h2>
-            <ul class="lead tech-col-1">
-              <li>Ruby</li>
-              <li>Rails</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>AJAX</li>
-              <li>JSON</li>
-              <li>SQL/PSQL</li>
-            </ul>
-            <ul class="lead tech-col-2">
-              <li>RSpec</li>
-              <li>Capybara</li>
-              <li>Jasmine</li>
-              <li>Git/Github</li>
-              <li>Heroku</li>
-              <li>Travis</li>
-            </ul> 
-        </div> <!-- /#technologies -->
-      </div> <!-- /.row featurette -->
-      <p class="pull-right"><a href="#">Back to top</a></p>
-
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <div id="contact">
-          <ul class="contact-me">
-            <li><a href="https://www.github.com/jayk31" target="_blank"><img src="img/github.ico" /></a>
-            <li><a href="https://www.linkedin.com/in/eljayk/" target="_blank"><img src="img/linkedin.ico" /></a>
-            <li><a href="https://twitter.com/jkaye31" target="_blank"><img src="img/twitter"/></a>
-            <li><a href="mailto:jay.kaye31@gmail.com"><img src="img/email" /></a>
-          </ul> <!-- end contact-me ul -->
-        </div> <!-- contact2 div -->
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Me, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootbox.js"></script>
-    <script src="js/main.js"></script>
-   
-  
-  </body>
+</body>
 </html>
