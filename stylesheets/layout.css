@@ -155,12 +155,21 @@ a {
 ================================================== */
 
 .contact-headline-style {
-	margin: 200px 0 20px 0;
+	margin: 200px 0 40px 0;
 	text-align: center;
+
 }
 
 .contact-me-style {
-	
+	margin-bottom: 200px;
+}
+
+.contact-me-list {
+	text-align: center;
+}
+
+.contact-me-list li a:hover {
+	text-decoration: underline;
 }
 
 
