@@ -37,18 +37,27 @@ a {
 
 .navbar {
 	margin: 0;
-	padding: 0;
+	padding: 20px 0 0 0;
 	background-color: red;
 	width: 100%;
 	display: none;
 	z-index: 1;
-
+	text-align: center;
 }
 
 .navbar ul li {
 	margin: 0;
-	padding: 0;
+	position: relative;
+	padding: 0 30px;
 	display: inline;
+	vertical-align: middle;
+}
+
+.navbar ul #name-navbar {
+	position: absolute;
+	left: 10px;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -58,7 +67,6 @@ a {
 	background: url('http://bp4.uuuploads.com/landscape-photography/landscape-photography-36-large.jpg');
 	background-size: cover;
 	height: 100vh;
-	max-height: 1000px;
 	margin: 0 auto;
 }
 
@@ -127,11 +135,19 @@ a {
 /* #Project Section Style
 ================================================== */
 
-.project-style {
-	margin: 400px 0 20px 0;
+.project-headline-style {
+	margin: 200px 0 20px 0;
 	text-align: center;
 }
 
+
+/* #Contact Section Style
+================================================== */
+
+.contact-headline-style {
+	margin: 200px 0 20px 0;
+	text-align: center;
+}
 
 
 /* #Media Queries

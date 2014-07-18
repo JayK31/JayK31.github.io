@@ -21,6 +21,7 @@ $(document).ready(function() {
             .css("opacity", 0.9)
     }
   });
+
   $(window).scroll(function(){
     if($(window).scrollTop() <= 600){
         $(".navbar").fadeOut("fast");
@@ -32,13 +33,20 @@ $(document).ready(function() {
     $('html,body').animate({ 
       scrollTop: $('#about').offset().top 
     }, 2000);
-
   });
 
   $('#projects-navbar').click(function(event) {
     event.preventDefault();
     $('html,body').animate({ 
       scrollTop: $('#projects').offset().top 
+    }, 2000);
+  });
+
+
+  $('#contact-navbar').click(function(event) {
+    event.preventDefault();
+    $('html,body').animate({ 
+      scrollTop: $('#contact').offset().top 
     }, 2000);
   });
 
