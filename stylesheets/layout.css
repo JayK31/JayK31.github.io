@@ -54,6 +54,7 @@ a {
 	display: inline;
 	color: white;
 	font-family: 'Playfair Display SC', serif;
+	font-size: 1.2em;
 
 }
 
@@ -148,6 +149,24 @@ a {
 .project-headline-style {
 	margin: 200px 0 20px 0;
 	text-align: center;
+}
+
+.my-projects li {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.project-name-link {
+	margin: 5px 0;
+	padding: 0;
+	text-align: center;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+
+.project-name-link a:hover {
+	text-shadow: 1px 1px #ff0000;
 }
 
 
