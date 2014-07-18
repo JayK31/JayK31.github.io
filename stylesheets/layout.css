@@ -46,18 +46,28 @@ a {
 }
 
 .navbar ul li {
-	margin: 0;
-	position: relative;
+	display: inline;
+}
+
+.navbar ul li a {
 	padding: 0 30px;
 	display: inline;
-	vertical-align: middle;
+	color: white;
+	font-family: 'Playfair Display SC', serif;
+
+}
+
+.navbar ul li a:hover {
+	background: black;
+	padding: 23px 30px;
 }
 
 .navbar ul #name-navbar {
 	position: absolute;
 	left: 10px;
-	margin: 0;
-	padding: 0;
+	color: black;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 2em;
 }
 
 
@@ -147,6 +157,10 @@ a {
 .contact-headline-style {
 	margin: 200px 0 20px 0;
 	text-align: center;
+}
+
+.contact-me-style {
+	
 }
 
 
