@@ -450,11 +450,11 @@ a {
 		padding-top: 60px;
 		padding-bottom: 60px;
 		color: black;
-		font-size: .3em;
+		font-size: .2em;
 		font-family: 'Roboto', sans-serif;
 		text-align: center;
 		width: 100%;
-		top: 0;
+		bottom: -400px;
 		font-variant: small-caps;
 	}
 	
