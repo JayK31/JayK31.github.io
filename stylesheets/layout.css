@@ -477,7 +477,7 @@ a {
 	.button {
 		position: absolute;
 		left: 400px;
-		top: 50px;
+		bottom: 200px;
 		opacity: 0.5;
 		border: 1px solid black;
 		-moz-border-radius: 3px;
