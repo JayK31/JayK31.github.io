@@ -522,7 +522,7 @@ a {
 
 .navbar ul #name-navbar {
 	position: absolute;
-	left: 10px;
+	left: 0px;
 	color: black;
 	font-family: 'Playfair Display SC', serif;
 	font-size: 0.5em;
