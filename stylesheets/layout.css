@@ -462,7 +462,7 @@ a {
 	.describe-me {
 		position: absolute;
 		width: 100%;
-		top: 400px;
+		top: 200px;
 		list-style-type: none;
 		text-align: center;
 	}
