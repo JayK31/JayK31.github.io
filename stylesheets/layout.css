@@ -446,7 +446,7 @@ a {
 	height: 20vh;
 	margin: 0 auto;
 }
-	.name {
+	.name h1 {
 		padding-top: 60px;
 		padding-bottom: 60px;
 		color: black;
