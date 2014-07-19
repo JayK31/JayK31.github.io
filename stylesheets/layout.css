@@ -189,11 +189,20 @@ a {
 }
 
 .contact-me-list {
-	text-align: center;
+	text-align: left;
+	margin-left: 400px;
+	margin-right: 400px;
 }
 
 .contact-me-list li a:hover {
 	text-decoration: underline;
+}
+
+.contact-me-style img {
+	margin: 0 7px;
+	padding: 0;
+	text-align: left;
+	vertical-align: text-bottom;
 }
 
 
