@@ -440,12 +440,14 @@ a {
 /* Smaller Mobile Sizes*/
 @media only screen and (min-width: 0px) and (max-width: 479px) {
 
+/* INTRO SECTION STYLE */
 	.intro-section {
 	background: url('http://bp4.uuuploads.com/landscape-photography/landscape-photography-36-large.jpg');
 	background-size: cover;
 	height: 20vh;
 	margin: 0 auto;
 }
+
 	.name h1 {
 	/*	padding-top: 60px;
 		padding-bottom: 60px;*/
@@ -488,6 +490,17 @@ a {
 		/*padding: 3px 10px;*/
 		font-family: "Roboto", sans-serif; 
 		color: black;
+	}
+
+/* ABOUT ME STYLE */
+	.header-image  {
+		height: 30%;
+		width: 30%;
+		border: 3px solid black;
+		border-radius: 50%;
+		border-style: groove;
+		margin-bottom: 20px;
+		margin-top: 20px;
 	}
 
 }
