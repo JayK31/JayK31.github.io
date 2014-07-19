@@ -443,7 +443,7 @@ a {
 	.intro-section {
 	background: url('http://bp4.uuuploads.com/landscape-photography/landscape-photography-36-large.jpg');
 	background-size: cover;
-	height: 30vh;
+	/*height: 100vh;*/
 	margin: 0 auto;
 }
 	.name {
