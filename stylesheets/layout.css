@@ -1,0 +1,503 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+h1, h2, h3, h4, h5, h6, div, p {
+	font-family: 'Nobile', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.button a {
+	color: #00ffff;
+}
+
+.button:hover a {
+	color: green;
+}
+
+/* #Navbar Style
+================================================== */
+
+.navbar {
+	margin: 0;
+	padding: 20px 0 0 0;
+	background-color: red;
+	width: 100%;
+	display: none;
+	z-index: 1;
+	text-align: center;
+}
+
+.navbar ul li {
+	display: inline;
+}
+
+.navbar ul li a {
+	padding: 0 30px;
+	display: inline;
+	color: white;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.2em;
+
+}
+
+.navbar ul li a:hover {
+	background: black;
+	padding: 23px 30px;
+}
+
+.navbar ul #name-navbar {
+	position: absolute;
+	left: 10px;
+	color: black;
+	font-family: 'Playfair Display SC', serif;
+	font-size: 2em;
+}
+
+
+/* #Intro Page Style
+================================================== */
+.intro-section {
+	background: url('http://bp4.uuuploads.com/landscape-photography/landscape-photography-36-large.jpg');
+	background-size: cover;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.name {
+	padding-top: 160px;
+	padding-bottom: 160px;
+	color: white;
+	font-size: 10em;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	width: 100%;
+	bottom: -300px;
+	font-variant: small-caps;
+}
+
+.describe-me {
+	position: absolute;
+	width: 100%;
+	top: 250px;
+	right: 25px;
+	list-style-type: none;
+	text-align: center;
+}
+
+.describe-me li {
+	color: black;
+	font-size: 2em;
+}
+
+.button {
+	position: absolute;
+	left: 380px;
+	border: 3px solid white;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 1.5em;
+	cursor: pointer;
+	margin-bottom: 20px;
+	line-height: normal;
+	padding: 12px 40px;
+	font-family: "Roboto", sans-serif; #00ffff
+}
+
+.button:hover {
+	color: #222;
+}
+
+/* #About Section Style
+================================================== */
+.header-image  {
+	height: 30%;
+	width: 30%;
+	border: 3px solid black;
+	border-radius: 50%;
+	border-style: groove;
+	margin-bottom: 20px;
+}
+
+.header-picture {
+	text-align: center;
+	margin: 140px 0 0 0;
+}
+
+.about-me p {
+	line-height: 1.7em;
+}
+
+.about-subtitle {
+	font-weight: bold;
+}
+
+/* #Project Section Style
+================================================== */
+
+.project-headline-style {
+	margin: 200px 0 20px 0;
+	text-align: center;
+}
+
+.my-projects {
+	height: 100%;
+}
+
+.project-name-link {
+	margin: 5px 0;
+	padding: 0;
+	text-align: center;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+
+.project-name-link a:hover {
+	text-shadow: 1px 1px #ff0000;
+}
+
+
+/* #Contact Section Style
+================================================== */
+
+.contact-headline-style {
+	margin: 200px 0 40px 0;
+	text-align: center;
+
+}
+
+.contact-me-style {
+	margin-bottom: 200px;
+}
+
+.contact-me-list {
+	text-align: center;
+}
+
+.contact-me-list li a:hover {
+	text-decoration: underline;
+}
+
+
+/* #Media Queries
+================================================== */
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.name {
+		padding-top: 160px;
+		padding-bottom: 160px;
+		color: white;
+		font-size: 10em;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		width: 100%;
+		bottom: -300px;
+		font-variant: small-caps;
+	}
+	
+	.describe-me {
+		position: absolute;
+		width: 100%;
+		top: 250px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.describe-me li {
+		color: black;
+		font-size: 2em;
+	}
+
+	.button {
+		position: absolute;
+		left: 390px;
+		opacity: 0.5;
+		border: 3px solid black;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		font-size: 1.5em;
+		cursor: pointer;
+		margin-bottom: 20px;
+		line-height: normal;
+		padding: 12px 40px;
+		font-family: "Roboto", sans-serif; 
+		color: black;
+	}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.name {
+		padding-top: 160px;
+		padding-bottom: 160px;
+		color: white;
+		font-size: 10em;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		width: 100%;
+		bottom: -300px;
+		font-variant: small-caps;
+	}
+	
+	.describe-me {
+		position: absolute;
+		width: 100%;
+		top: 250px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.describe-me li {
+		color: black;
+		font-size: 2em;
+	}
+
+	.button {
+		position: absolute;
+		left: 300px;
+		opacity: 0.5;
+		border: 3px solid black;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		font-size: 1.5em;
+		cursor: pointer;
+		margin-bottom: 20px;
+		line-height: normal;
+		padding: 12px 40px;
+		font-family: "Roboto", sans-serif; 
+		color: white;
+	}
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+	.name {
+		padding-top: 160px;
+		padding-bottom: 160px;
+		color: black;
+		font-size: 6em;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		width: 100%;
+		bottom: -300px;
+		font-variant: small-caps;
+	}
+	
+	.describe-me {
+		position: absolute;
+		width: 100%;
+		top: 230px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.describe-me li {
+		color: white;
+		font-size: 2em;
+	}
+
+	.button {
+		position: absolute;
+		left: 390px;
+		opacity: 0.5;
+		border: 3px solid black;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		font-size: 1.5em;
+		cursor: pointer;
+		margin-bottom: 20px;
+		line-height: normal;
+		padding: 12px 40px;
+		font-family: "Roboto", sans-serif; 
+		color: black;
+	}
+
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.name {
+		padding-top: 160px;
+		padding-bottom: 160px;
+		color: black;
+		font-size: 6em;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		width: 100%;
+		bottom: -300px;
+		font-variant: small-caps;
+	}
+	
+	.describe-me {
+		position: absolute;
+		width: 100%;
+		top: 230px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.describe-me li {
+		color: white;
+		font-size: 2em;
+	}
+
+	.button {
+		position: absolute;
+		left: 390px;
+		opacity: 0.5;
+		border: 3px solid black;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		font-size: 1.5em;
+		cursor: pointer;
+		margin-bottom: 20px;
+		line-height: normal;
+		padding: 12px 40px;
+		font-family: "Roboto", sans-serif; 
+		color: black;
+	}
+
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+	.name {
+		padding-top: 160px;
+		padding-bottom: 160px;
+		color: black;
+		font-size: 6em;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		width: 100%;
+		bottom: -300px;
+		font-variant: small-caps;
+	}
+	
+	.describe-me {
+		position: absolute;
+		width: 100%;
+		top: 230px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.describe-me li {
+		color: white;
+		font-size: 2em;
+	}
+
+	.button {
+		position: absolute;
+		left: 390px;
+		opacity: 0.5;
+		border: 3px solid black;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		font-size: 1.5em;
+		cursor: pointer;
+		margin-bottom: 20px;
+		line-height: normal;
+		padding: 12px 40px;
+		font-family: "Roboto", sans-serif; 
+		color: black;
+	}
+
+}
+
+/* Smaller Mobile Sizes*/
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+	.name {
+		padding-top: 160px;
+		padding-bottom: 160px;
+		color: black;
+		font-size: 4em;
+		font-family: 'Roboto', sans-serif;
+		text-align: center;
+		width: 100%;
+		bottom: -300px;
+		font-variant: small-caps;
+	}
+	
+	.describe-me {
+		position: absolute;
+		width: 100%;
+		top: 200px;
+		list-style-type: none;
+		text-align: center;
+	}
+
+	.describe-me li {
+		color: white;
+		font-size: 1.5em;
+	}
+
+	.button {
+		position: absolute;
+		left: 390px;
+		opacity: 0.5;
+		border: 3px solid black;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		display: inline-block;
+		font-size: 1.5em;
+		cursor: pointer;
+		margin-bottom: 20px;
+		line-height: normal;
+		padding: 12px 40px;
+		font-family: "Roboto", sans-serif; 
+		color: black;
+	}
+
+}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/*	@font-face {
+	    font-family: 'FontName';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }
