@@ -460,11 +460,9 @@ a {
 	}
 	
 	.describe-me {
-		/*position: absolute;*/
-		margin: 0 auto;
 		width: 100%;
-		/*top: 100px;*/
-		/*left: -30px;*/
+		top: 100px;
+		left: -30px;
 		list-style-type: none;
 		text-align: center;
 	}
