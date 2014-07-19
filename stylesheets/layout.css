@@ -462,14 +462,14 @@ a {
 	.describe-me {
 		position: absolute;
 		width: 100%;
-		top: 300px;
+		top: 200px;
 		list-style-type: none;
 		text-align: center;
 	}
 
 	.describe-me li {
 		color: white;
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 
 	.button {
