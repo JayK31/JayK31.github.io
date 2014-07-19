@@ -449,6 +449,7 @@ a {
 	.name h1 {
 	/*	padding-top: 60px;
 		padding-bottom: 60px;*/
+		position: absolute;
 		color: black;
 		font-size: .2em;
 		font-family: 'Roboto', sans-serif;
