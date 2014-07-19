@@ -476,7 +476,7 @@ a {
 
 	.button {
 		position: absolute;
-		left: 300px;
+		left: 100px;
 		top: 50px;
 		opacity: 0.5;
 		border: 1px solid black;
