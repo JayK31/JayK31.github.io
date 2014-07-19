@@ -460,7 +460,8 @@ a {
 	}
 	
 	.describe-me {
-		position: absolute;
+		/*position: absolute;*/
+		margin: 0 auto;
 		width: 100%;
 		top: 100px;
 		left: -30px;
