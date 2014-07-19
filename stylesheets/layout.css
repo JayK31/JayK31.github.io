@@ -97,6 +97,7 @@ a {
 	position: absolute;
 	width: 100%;
 	top: 250px;
+	right: 25px;
 	list-style-type: none;
 	text-align: center;
 }
@@ -142,6 +143,13 @@ a {
 	margin: 140px 0 0 0;
 }
 
+.about-me p {
+	line-height: 1.7em;
+}
+
+.about-subtitle {
+	font-weight: bold;
+}
 
 /* #Project Section Style
 ================================================== */
@@ -151,10 +159,8 @@ a {
 	text-align: center;
 }
 
-.my-projects li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+.my-projects {
+	height: 100%;
 }
 
 .project-name-link {

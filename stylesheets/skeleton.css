@@ -51,6 +51,7 @@
 
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
+    .container .one-half.column                  { width: 460px;}
 
     /* Offsets */
     .container .offset-by-one                   { padding-left: 60px;  }
