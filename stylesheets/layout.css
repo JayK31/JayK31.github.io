@@ -81,11 +81,11 @@ a {
 	margin: 0 auto;
 }
 
-.name {
+.name h1 {
 	padding-top: 160px;
 	padding-bottom: 160px;
 	color: white;
-	font-size: 10em;
+	font-size: 3.2em;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	width: 100%;
