@@ -447,8 +447,8 @@ a {
 	margin: 0 auto;
 }
 	.name h1 {
-		padding-top: 60px;
-		padding-bottom: 60px;
+	/*	padding-top: 60px;
+		padding-bottom: 60px;*/
 		color: black;
 		font-size: .2em;
 		font-family: 'Roboto', sans-serif;
