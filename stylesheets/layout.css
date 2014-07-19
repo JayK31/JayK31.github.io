@@ -439,6 +439,13 @@ a {
 
 /* Smaller Mobile Sizes*/
 @media only screen and (min-width: 0px) and (max-width: 479px) {
+
+	.intro-section {
+	background: url('http://bp4.uuuploads.com/landscape-photography/landscape-photography-36-large.jpg');
+	background-size: cover;
+	height: 30vh;
+	margin: 0 auto;
+}
 	.name {
 		padding-top: 160px;
 		padding-bottom: 160px;
