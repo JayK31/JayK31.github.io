@@ -477,7 +477,7 @@ a {
 	.button {
 		position: absolute;
 		left: 400px;
-		bottom: 200px;
+		bottom: 100px;
 		opacity: 0.5;
 		border: 1px solid black;
 		-moz-border-radius: 3px;
@@ -487,7 +487,7 @@ a {
 		font-size: 0.3em;
 		cursor: pointer;
 		line-height: normal;
-		padding: 3px 10px;
+		/*padding: 3px 10px;*/
 		font-family: "Roboto", sans-serif; 
 		color: black;
 	}
