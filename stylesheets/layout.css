@@ -482,7 +482,7 @@ a {
 		-webkit-border-radius: 3px;
 		border-radius: 3px;
 		display: inline-block;
-		font-size: 0.3em;
+		font-size: .8em;
 		cursor: pointer;
 		line-height: normal;
 		/*padding: 3px 10px;*/
