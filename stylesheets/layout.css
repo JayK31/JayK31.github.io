@@ -74,7 +74,7 @@ a {
 /* #Intro Page Style
 ================================================== */
 .intro-section {
-	background: url('http://bp4.uuuploads.com/landscape-photography/landscape-photography-36-large.jpg');
+	background: url('background.jpg');
 	background-size: cover;
 	height: 100vh;
 	margin: 0 auto;
